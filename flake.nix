@@ -38,6 +38,7 @@
         formatter = treefmtEval.config.build.wrapper;
 
         checks = {
+          inherit grep-zig;
           formatting = treefmtEval.config.build.check self;
         };
 
